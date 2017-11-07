@@ -71,6 +71,7 @@ import org.apache.spark.util._
  * @param config a Spark Config object describing the application configuration. Any settings in
  *   this config overrides the default configs as well as system properties.
  */
+// 主构造器要传入一个SparkConf
 class SparkContext(config: SparkConf) extends Logging {
 
   // The call site where this SparkContext was constructed.
